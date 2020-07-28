@@ -1,17 +1,18 @@
 import React from 'react';
 import { FooterBase } from './styles';
+import Logo from '../../assets/img/logo-ricaflix.png';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="/">
+        <img className='Logo' src={Logo} alt="Logo Alura" />
       </a>
       <p>
-        Criado durante a
+        Maior acervo de conteúdo do
         {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
+        <a href="https://www.youtube.com/user/QueimaMidiaGamers">
+          Rica Games
         </a>
       </p>
     </FooterBase>
