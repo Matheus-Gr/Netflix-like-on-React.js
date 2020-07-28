@@ -1,0 +1,189 @@
+{
+  "categorias": [
+    {
+      "titulo": "Brasil",
+      "link": "https://www.youtube.com/watch?v=9gynQNOxRZc&t",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Videos desabafando sobre a situação de nosso país",
+        "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+      },
+      "videos": [
+        {
+          "titulo": "O que faz um Rica Games? #RicaGames",
+          "url": "https://www.youtube.com/watch?v=wFcnI-Q1mSs"
+        },
+        {
+          "titulo": "Esse Brasil nn é pra mim!",
+          "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+        },
+        {
+          "titulo": "Brasil, um buraco sem saída!",
+          "url": "https://www.youtube.com/watch?v=LMLj9YdrU-8"
+        },
+        {
+          "titulo": "Oque eu faço nesse Brasil!",
+          "url": "https://www.youtube.com/watch?v=-HqHYAJ3eVE"
+        },
+        {
+          "titulo": "Se eu pudesse ir embora desse pais eu iria!!",
+          "url": "https://www.youtube.com/watch?v=yRYY5LzY5nI"
+        },
+        {
+          "titulo": "Brasil escroto!!",
+          "url": "https://www.youtube.com/watch?v=BA3ppDO2Vr8"
+        },
+        {
+          "titulo": "Brasil, o país dos concursos públicos!",
+          "url": "https://www.youtube.com/watch?v=ScImXpTOHSU"
+        },
+        {
+          "titulo": "Brasileiro é um povo que bate!",
+          "url": "https://www.youtube.com/watch?v=zXbO4n7I6XA"
+        }
+      ]
+    },
+    {
+      "titulo": "Gameplay",
+      "cor": "red",
+      "link_extra": {
+        "text": "Videos das melhores jogatinas do YouTube!",
+        "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
+      },
+      "videos": [
+        {
+          "titulo": "The Last Of Us",
+          "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
+        },
+        {
+          "titulo": "Destiny",
+          "url": "https://www.youtube.com/watch?v=Tx1gpHdX9-A"
+        },
+        {
+          "titulo": "Simulador de avião, FUI PARA O JAPÃO!!",
+          "url": "https://www.youtube.com/watch?v=JHP2DAELbWc"
+        },
+        {
+          "titulo": "GTA V",
+          "url": "https://www.youtube.com/watch?v=Ipexpnk7et8"
+        },
+        {
+          "titulo": "Avatar Racedrome",
+          "url": "https://www.youtube.com/watch?v=k-hhTuzY_Js"
+        }
+      ]
+    },
+    {
+      "titulo": "Musica",
+      "cor": "#F029C3",
+      "link_extra": {
+        "text": "Maiores Hits de RicaGames",
+        "url": "https://www.youtube.com/watch?v=TrQDEAf5A9k&t"
+      },
+      "videos": [
+        {
+          "titulo": "Me fu* com jogos indies",
+          "url": "https://www.youtube.com/watch?v=kuQ5Cac7pFg&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO&index=6"
+        },
+        {
+          "titulo": "Rap do Ricardo",
+          "url": "https://www.youtube.com/watch?v=Eid65Nce7gY"
+        },
+        {
+          "titulo": "Xbox para filho machão",
+          "url": "https://www.youtube.com/watch?v=eSRgRVx9ZjQ&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO"
+        },
+        {
+          "titulo": "My Quarto!",
+          "url": "https://www.youtube.com/watch?v=bM0nYl5P5sg&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO&index=2"
+        }
+      ]
+    },
+    {
+      "titulo": "Curtas",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Curtas que expressam um pouco da genialidade de Rica",
+        "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+      },
+      "videos": [
+        {
+          "titulo": "Era uma vez um Gamer",
+          "url": "https://www.youtube.com/watch?v=C1eMG03wa2Q"
+        },
+        {
+          "titulo": "Era uma vez um Gamer 2",
+          "url": "https://www.youtube.com/watch?v=2HmGTWhlMP0"
+        },
+        {
+          "titulo": "Era uma vez um Gamer 3",
+          "url": "https://www.youtube.com/watch?v=FnSHjCnw-TQ&t"
+        },
+        {
+          "titulo": "Tempos modernos",
+          "url": "https://www.youtube.com/watch?v=ToydddcHyOE"
+        }
+      ]
+    },
+    {
+      "titulo": "Desabafando",
+      "cor": "gray",
+      "link_extra": {
+        "text": "Revoltado com essa vida de dinheiro",
+        "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+      },
+      "videos": [
+        {
+          "text": "Revoltado com essa vida de dinheiro",
+          "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+        },
+        {
+          "titulo": "Saudade das minhas gameplays!",
+          "url": "https://www.youtube.com/watch?v=jpygegg5i5k"
+        },
+        {
+          "titulo": "Vou dar um tempo!",
+          "url": "https://www.youtube.com/watch?v=lY8cbS3JyrY"
+        },
+        {
+          "titulo": "Como raspo meu cabelo",
+          "url": "https://www.youtube.com/watch?v=QZ0KgCm8SmM"
+        },
+        {
+          "titulo": "Saudade da época 16 bits",
+          "url": "https://www.youtube.com/watch?v=jH5lZumDZhA"
+        }
+      ]
+    },
+    {
+      "titulo": "Extras",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Extras",
+        "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+      },
+      "videos": [
+        {
+          "titulo": "Castle Miner",
+          "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+        },
+        {
+          "titulo": "Rica Evagelion",
+          "url": "https://www.youtube.com/watch?v=Aaz1e4yOh8A"
+        },
+        {
+          "titulo": "A proxima geração",
+          "url": "https://www.youtube.com/watch?v=-ldsEUx_qRQ"
+        },
+        {
+          "titulo": "Sobre gravando gameplay",
+          "url": "https://www.youtube.com/watch?v=HpS6olBT-x4"
+        },
+        {
+          "titulo": "3 amigões",
+          "url": "https://www.youtube.com/watch?v=yfqYhv8RD0Q"
+        }
+      ]
+    }
+  ]
+}
