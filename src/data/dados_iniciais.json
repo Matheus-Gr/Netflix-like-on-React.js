@@ -32,6 +32,10 @@
         {
           "titulo": "Brasil escroto!!",
           "url": "https://www.youtube.com/watch?v=BA3ppDO2Vr8"
+        },
+        {
+          "titulo": "Brasileiro é um povo que bate!",
+          "url": "https://www.youtube.com/watch?v=zXbO4n7I6XA&t="
         }
       ]
     },
@@ -62,6 +66,10 @@
         {
           "titulo": "Avatar Racedrome",
           "url": "https://www.youtube.com/watch?v=k-hhTuzY_Js"
+        },
+        {
+          "titulo": "Gradiador!!",
+          "url": "https://www.youtube.com/watch?v=LhW2HjXpNWM"
         }
       ]
     },
@@ -92,6 +100,10 @@
         {
           "titulo": "Eu antes era box XBOX!",
           "url": "https://www.youtube.com/watch?v=QTrtFAFsXXQ"
+        },
+        {
+          "titulo": "Eu antes era machão",
+          "url": "https://www.youtube.com/watch?v=idZUGg9wDIw"
         }
       ]
     },
@@ -120,8 +132,12 @@
           "url": "https://www.youtube.com/watch?v=ToydddcHyOE"
         },
         {
-          "titulo": "Ricazio em ação!",
+          "titulo": "Ricazio em ação!", 
           "url": "https://www.youtube.com/watch?v=fW-VYpSMBg0"
+        },
+        {
+          "titulo": "Pinchier da Xbox One",
+          "url": "https://www.youtube.com/watch?v=pgBjPQ4yEpw"
         }
       ]
     },
@@ -129,7 +145,7 @@
       "titulo": "Desabafando",
       "cor": "gray",
       "link_extra": {
-        "text": "Revoltado com essa vida de dinheiro",
+        "text": "Desabafos do crânio da psicanalise moderna e legislação ",
         "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
       },
       "videos": [
@@ -152,6 +168,10 @@
         {
           "titulo": "Saudade da época 16 bits",
           "url": "https://www.youtube.com/watch?v=jH5lZumDZhA"
+        },
+        {
+          "titulo": "Mulher é atraso de vida!",
+          "url": "https://www.youtube.com/watch?v=GI8PND7XUsk"
         }
       ]
     },
@@ -182,6 +202,10 @@
         {
           "titulo": "3 amigões",
           "url": "https://www.youtube.com/watch?v=yfqYhv8RD0Q"
+        },
+        {
+          "titulo": "Tablet",
+          "url": "https://www.youtube.com/watch?v=HXxviKu-RD4"
         }
       ]
     }
