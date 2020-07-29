@@ -27,7 +27,7 @@ export const VideoCardContainer = styled.a`
     border-bottom-left-radius: 0px;
     background-size: 350px;
     border: 0px solid;
-    transform: scale(1.12);
+    transform: scale(1.2);
     z-index: 10;
     opacity: 1;
   }
