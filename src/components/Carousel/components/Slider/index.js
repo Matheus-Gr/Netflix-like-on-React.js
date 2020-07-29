@@ -6,7 +6,8 @@ import styled from 'styled-components';
 const Container = styled.ul`
   padding: 0;
   margin: 0;
-  .slick-next::Before, .slick-prev::before{
+  .slick-next::Before, 
+  .slick-prev::before{
   color: ${({ arrowColor }) => arrowColor};
   }
   .slick-prev,
@@ -32,7 +33,7 @@ const Container = styled.ul`
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 35px;
+  margin-right: 10px;
   img {
     margin: 16px;
     width: 298px;

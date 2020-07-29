@@ -1,10 +1,14 @@
 .Logo {
      max-width: 168px;
+     transition: transform .3s;
 }
-
+.Logo:hover{
+     transform: scale(1.078);
+}
 @media (max-width: 800px) {
      .Logo {
           max-width: 105px;
+          
      }
 }
 
@@ -14,7 +18,7 @@
      z-index: 100;
 
      display: flex;
-     justify-content: space-between;
+     justify-content: flex-start;
      align-items: center;
      
      position: fixed;
@@ -23,29 +27,23 @@
      right: 0;
      padding-left: 5%;
      padding-right: 5%;
-     background: var(--grayDark);
-     border-bottom: 2px solid var(--red);
+     
+
+     
 }
 
-body {
-     --bodyPaddingTop: 94px;
-     padding-top: var(--bodyPaddingTop);
-}
+
 
 @media (max-width: 800px) {
      .Menu {
           height: 40px;
           justify-content: center;
      }
-     body {
-          --bodyPaddingTop: 40px;
-          padding-top: var(--bodyPaddingTop);
-     }
 }
 
 .ButtonLink {
      color: var(--white);
-     border: 1px solid var(--white);
+    
      box-sizing: border-box;
      cursor: pointer;
      padding: 16px 24px;
@@ -53,7 +51,7 @@ body {
      font-weight: bold;
      font-size: 16px;
      outline: none;
-     border-radius: 5px;
+  
      text-decoration: none;
      display: inline-block;
      transition: opacity .3s;
@@ -65,6 +63,8 @@ body {
 
 @media (max-width: 800px) {
      a.ButtonLink {
+          opacity: 1;
+          padding-left: 24px;
           position: fixed;
           left: 0;
           right: 0;
