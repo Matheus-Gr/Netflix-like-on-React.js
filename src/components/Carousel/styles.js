@@ -1,18 +1,27 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
+  color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 35px;
-  line-height: 1;
-  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
   display: inline-block;
-  padding: 20px;
+  padding: 15px;
+  padding-right: 20px;
   background: red;
-  line-height: 1;
-  border-radius: 4px;
+  line-height: 0.6;
+  width: 150px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 25px;
 
   @media (max-width: 800px) {
+    text-align: center;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    margin-bottom: 16px;
+    border-radius: 10px;
     font-size: 18px;
     padding: 10px;
   }
