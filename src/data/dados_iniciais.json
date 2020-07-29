@@ -1,52 +1,17 @@
 {
   "categorias": [
     {
-      "titulo": "Brasil",
-      "link": "https://www.youtube.com/watch?v=9gynQNOxRZc&t",
-      "cor": "#00C86F",
+      "titulo": "Gameplay",
+      "cor": "#E74C3C ",
       "link_extra": {
-        "text": "Videos desabafando sobre a situação de nosso país",
-        "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+        "text": "Videos das melhores jogatinas do YouTube!",
+        "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
       },
       "videos": [
         {
           "titulo": "O que faz um Rica Games? #RicaLovers",
           "url": "https://www.youtube.com/watch?v=ZuJXeIWz9Zc"
         },
-        {
-          "titulo": "Esse Brasil nn é pra mim!",
-          "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
-        },
-        {
-          "titulo": "Brasil, um buraco sem saída!",
-          "url": "https://www.youtube.com/watch?v=LMLj9YdrU-8"
-        },
-        {
-          "titulo": "Oque eu faço nesse Brasil!",
-          "url": "https://www.youtube.com/watch?v=-HqHYAJ3eVE"
-        },
-        {
-          "titulo": "Se eu pudesse ir embora desse pais eu iria!!",
-          "url": "https://www.youtube.com/watch?v=yRYY5LzY5nI"
-        },
-        {
-          "titulo": "Brasil escroto!!",
-          "url": "https://www.youtube.com/watch?v=BA3ppDO2Vr8"
-        },
-        {
-          "titulo": "Brasileiro é um povo que bate!",
-          "url": "https://www.youtube.com/watch?v=zXbO4n7I6XA&t="
-        }
-      ]
-    },
-    {
-      "titulo": "Gameplay",
-      "cor": "red",
-      "link_extra": {
-        "text": "Videos das melhores jogatinas do YouTube!",
-        "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
-      },
-      "videos": [
         {
           "titulo": "The Last Of Us",
           "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
@@ -74,8 +39,42 @@
       ]
     },
     {
+      "titulo": "Extras",
+      "cor": "#8E44AD",
+      "link_extra": {
+        "text": "Extras",
+        "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+      },
+      "videos": [
+        {
+          "titulo": "Castle Miner",
+          "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+        },
+        {
+          "titulo": "Rica Evagelion",
+          "url": "https://www.youtube.com/watch?v=Aaz1e4yOh8A"
+        },
+        {
+          "titulo": "A proxima geração",
+          "url": "https://www.youtube.com/watch?v=-ldsEUx_qRQ"
+        },
+        {
+          "titulo": "Sobre gravando gameplay",
+          "url": "https://www.youtube.com/watch?v=HpS6olBT-x4"
+        },
+        {
+          "titulo": "3 amigões",
+          "url": "https://www.youtube.com/watch?v=yfqYhv8RD0Q"
+        },
+        {
+          "titulo": "Tablet",
+          "url": "https://www.youtube.com/watch?v=HXxviKu-RD4"
+        }
+      ]
+    },
+    {
       "titulo": "Musica",
-      "cor": "#F029C3",
+      "cor": "#3498DB",
       "link_extra": {
         "text": "Maiores Hits de RicaGames",
         "url": "https://www.youtube.com/watch?v=TrQDEAf5A9k&t"
@@ -108,8 +107,44 @@
       ]
     },
     {
+      "titulo": "Brasil",
+      "link": "https://www.youtube.com/watch?v=9gynQNOxRZc&t",
+      "cor": "#1ABC9C ",
+      "link_extra": {
+        "text": "Videos desabafando sobre a situação de nosso país",
+        "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+      },
+      "videos": [
+        
+        {
+          "titulo": "Esse Brasil nn é pra mim!",
+          "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+        },
+        {
+          "titulo": "Brasil, um buraco sem saída!",
+          "url": "https://www.youtube.com/watch?v=LMLj9YdrU-8"
+        },
+        {
+          "titulo": "Oque eu faço nesse Brasil!",
+          "url": "https://www.youtube.com/watch?v=-HqHYAJ3eVE"
+        },
+        {
+          "titulo": "Se eu pudesse ir embora desse pais eu iria!!",
+          "url": "https://www.youtube.com/watch?v=yRYY5LzY5nI"
+        },
+        {
+          "titulo": "Brasil escroto!!",
+          "url": "https://www.youtube.com/watch?v=BA3ppDO2Vr8"
+        },
+        {
+          "titulo": "Brasileiro é um povo que bate!",
+          "url": "https://www.youtube.com/watch?v=zXbO4n7I6XA&t="
+        }
+      ]
+    },
+    {
       "titulo": "Curtas",
-      "cor": "orange",
+      "cor": "#F1C40F",
       "link_extra": {
         "text": "Curtas que expressam um pouco da genialidade de Rica",
         "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
@@ -143,7 +178,7 @@
     },
     {
       "titulo": "Desabafando",
-      "cor": "gray",
+      "cor": "#DC7633",
       "link_extra": {
         "text": "Desabafos do crânio da psicanalise moderna e legislação ",
         "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
@@ -172,40 +207,6 @@
         {
           "titulo": "Mulher é atraso de vida!",
           "url": "https://www.youtube.com/watch?v=GI8PND7XUsk"
-        }
-      ]
-    },
-    {
-      "titulo": "Extras",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Extras",
-        "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
-      },
-      "videos": [
-        {
-          "titulo": "Castle Miner",
-          "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
-        },
-        {
-          "titulo": "Rica Evagelion",
-          "url": "https://www.youtube.com/watch?v=Aaz1e4yOh8A"
-        },
-        {
-          "titulo": "A proxima geração",
-          "url": "https://www.youtube.com/watch?v=-ldsEUx_qRQ"
-        },
-        {
-          "titulo": "Sobre gravando gameplay",
-          "url": "https://www.youtube.com/watch?v=HpS6olBT-x4"
-        },
-        {
-          "titulo": "3 amigões",
-          "url": "https://www.youtube.com/watch?v=yfqYhv8RD0Q"
-        },
-        {
-          "titulo": "Tablet",
-          "url": "https://www.youtube.com/watch?v=HXxviKu-RD4"
         }
       ]
     }
