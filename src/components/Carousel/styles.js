@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Title = styled.h3`
   color: #f4f4f4;
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: -1px;
   display: inline-block;
   padding: 15px;
   padding-right: 20px;
