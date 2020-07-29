@@ -6,6 +6,9 @@ import styled from 'styled-components';
 const Container = styled.ul`
   padding: 0;
   margin: 0;
+  .slick-next::Before, .slick-prev::before{
+  color: ${({ arrowColor }) => arrowColor};
+  }
   .slick-prev,
   .slick-next {
     z-index: 50;
@@ -39,8 +42,8 @@ export const SliderItem = styled.li`
 `;
 
 
-const Slider = ({ children }) => (
-  <Container>
+const Slider = ({ arrowColor, children }) => (
+  <Container arrowColor={arrowColor}>
     <SlickSlider {...{
       dots: false,
       infinite: false,
@@ -54,5 +57,6 @@ const Slider = ({ children }) => (
     </SlickSlider>
   </Container>
 );
+
 
 export default Slider; 
