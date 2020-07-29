@@ -1,0 +1,39 @@
+.NotF{
+    height: 50vh;
+    
+    background-color: #141414;
+    color:rgb(190, 189, 189);
+    text-align: center;
+}
+@media (max-width: 800px){
+    .NotF{
+        height: 100vh;
+    }
+}
+
+.t404{
+    font-size: 6vw;
+}
+@media (max-width: 800px){
+    .t404{
+        font-size: 15vw;
+    }
+}
+
+.st404{
+    font-size: 3vw;
+}
+@media (max-width: 800px){
+    .st404{
+        font-size: 8vw;
+    }
+}
+.catfig{
+    padding-left: 5vw;
+    max-width: 20vw;
+}
+@media (max-width: 800px){
+    .catfig{
+        max-width: 50vw;
+    }
+}
