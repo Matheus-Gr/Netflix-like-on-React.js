@@ -5,6 +5,12 @@ export const VideoContainer = styled.div`
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
+  margin-top: 20%;
+  margin-left: 10%;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.04);
+  }
   @media (max-width: 800px) {
     display: none;
   }
@@ -16,6 +22,7 @@ export const ResponsiveIframe = styled.iframe`
   left: 0;
   bottom: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
+  
 `;
