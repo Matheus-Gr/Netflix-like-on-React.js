@@ -1,0 +1,19 @@
+.Button {
+    color: var(--white);
+    background-color: var(--grayDark);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .3s;
+}
+
+.Button:hover, .Button:focus {
+    opacity: .5;
+}
