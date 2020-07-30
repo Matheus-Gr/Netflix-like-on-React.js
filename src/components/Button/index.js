@@ -1,4 +1,5 @@
-import styled from "styled-components";
+/* eslint-disable linebreak-style */
+import styled from 'styled-components';
 
 const Button = styled.button`
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -22,4 +23,4 @@ const Button = styled.button`
   }
 `;
 
-export default Button
+export default Button;
