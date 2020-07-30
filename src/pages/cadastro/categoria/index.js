@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import './categoria.css';
+import face from '../../../assets/img/willsmith.png';
 
 function CadastroCategoria() {
   const StartValues = {
@@ -32,18 +33,20 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        });
-    }
+    setTimeout(() => {
+      if (window.location.href.includes('localhost')) {
+        const URL = 'http://localhost:8080/categorias';
+        fetch(URL)
+          .then(async (respostaDoServer) => {
+            if (respostaDoServer.ok) {
+              const resposta = await respostaDoServer.json();
+              setCategorias(resposta);
+              return;
+            }
+            throw new Error('Não foi possível pegar os dados');
+          });
+      }
+    }, 4.3 * 1000);
   }, []);
 
   return (
@@ -88,6 +91,13 @@ function CadastroCategoria() {
           Cadastrar
         </button>  
       </form>
+      
+      {categorias.length === 0 && (
+      <div className="foto">
+        <img className="image" src={face} alt="willsmith" />
+      </div>
+
+      )}
 
       <ul>
         {categorias.map((categoria) => (
