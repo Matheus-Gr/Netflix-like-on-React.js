@@ -18,7 +18,6 @@ function PageDefault({ children }) {
                <Menu />
                     <Main>
                          {children}
-                    
                     </Main>
                <Footer />
           </>
