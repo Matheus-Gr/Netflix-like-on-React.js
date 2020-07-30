@@ -1,9 +1,11 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable react/button-has-type */
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
 import './categoria.css';
 
 function CadastroCategoria() {
@@ -42,6 +44,16 @@ function CadastroCategoria() {
           throw new Error('Não foi possível pegar os dados');
         });
     }
+    const URL = 'https://testsflix.herokuapp.com/categorias';
+    fetch(URL)
+      .then(async (respostaDoServer) => {
+        if (respostaDoServer.ok) {
+          const resposta = await respostaDoServer.json();
+          setCategorias(resposta);
+          return;
+        }
+        throw new Error('Não foi possível pegar os dados');
+      });
   }, []);
 
   return (
@@ -82,9 +94,9 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button className="Button">
+        <button className="Button">
           Cadastrar
-        </Button>
+        </button>  
       </form>
 
       <ul>

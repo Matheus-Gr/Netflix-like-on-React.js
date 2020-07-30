@@ -79,9 +79,7 @@ function FormField({
 
   return (
     <FormFieldWrapper>
-      <Label
-        htmlFor={FormField}
-      >
+      <Label>
         <Input
           as={tag}
           id={fielID}
