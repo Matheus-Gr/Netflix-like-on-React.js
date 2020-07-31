@@ -10,9 +10,9 @@ import face from '../../assets/img/willsmith.png';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
-  setTimeout(
+  
     useEffect(() => {
-      // http://localhost:8080/categorias?_embed=videos
+      setTimeout( () => {
       categoriasRepository.getAllWithVideos()
         .then((categoriasComVideos) => {
           console.log(categoriasComVideos[0].videos[0]);
@@ -21,7 +21,7 @@ function Home() {
         .catch((err) => {
           console.log(err.message);
         });
-    }, []), 10 * 1000);
+      }, 3.5 * 1000);}, [])
   
 
   return (
