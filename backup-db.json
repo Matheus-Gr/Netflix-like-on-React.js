@@ -1,0 +1,283 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Gameplay",
+      "cor": "#E74C3C",
+      "link_extra": {
+        "text": "Videos das melhores jogatinas do YouTube!",
+        "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Off-Topics",
+      "cor": "#8E44AD",
+      "link_extra": {
+        "text": "Extras",
+        "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Musica",
+      "cor": "#3498DB",
+      "link_extra": {
+        "text": "Maiores Hits de RicaGames",
+        "url": "https://www.youtube.com/watch?v=TrQDEAf5A9k&t"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Brasil",
+      "link": "https://www.youtube.com/watch?v=9gynQNOxRZc&t",
+      "cor": "#1ABC9C ",
+      "link_extra": {
+        "text": "Videos desabafando sobre a situação de nosso país",
+        "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Curtas",
+      "cor": "#F1C40F",
+      "link_extra": {
+        "text": "Curtas que expressam um pouco da genialidade de Rica",
+        "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Desabafando",
+      "cor": "#DC7633",
+      "link_extra": {
+        "text": "Desabafos do crânio da psicanalise moderna e legislação ",
+        "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O que faz um Rica Games? #RicaLovers",
+      "url": "https://www.youtube.com/watch?v=ZuJXeIWz9Zc"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "The Last Of Us",
+      "url": "https://www.youtube.com/watch?v=d5_fC8CneHw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Destiny",
+      "url": "https://www.youtube.com/watch?v=Tx1gpHdX9-A"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Simulador de avião, FUI PARA O JAPÃO!!",
+      "url": "https://www.youtube.com/watch?v=JHP2DAELbWc"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "GTA V",
+      "url": "https://www.youtube.com/watch?v=Ipexpnk7et8"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Avatar Racedrome",
+      "url": "https://www.youtube.com/watch?v=k-hhTuzY_Js"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Gradiador!!",
+      "url": "https://www.youtube.com/watch?v=LhW2HjXpNWM"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Castle Miner",
+      "url": "https://www.youtube.com/watch?v=ETqw0hzgvVU"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Rica Evagelion",
+      "url": "https://www.youtube.com/watch?v=Aaz1e4yOh8A"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "A proxima geração",
+      "url": "https://www.youtube.com/watch?v=-ldsEUx_qRQ"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Sobre gravando gameplay",
+      "url": "https://www.youtube.com/watch?v=HpS6olBT-x4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "3 amigões",
+      "url": "https://www.youtube.com/watch?v=yfqYhv8RD0Q"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Tablet",
+      "url": "https://www.youtube.com/watch?v=HXxviKu-RD4"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Me fu* com jogos indies",
+      "url": "https://www.youtube.com/watch?v=kuQ5Cac7pFg&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO&index=6"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Rap do Ricardo",
+      "url": "https://www.youtube.com/watch?v=Eid65Nce7gY"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Xbox para filho machão",
+      "url": "https://www.youtube.com/watch?v=eSRgRVx9ZjQ&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "My Quarto!",
+      "url": "https://www.youtube.com/watch?v=bM0nYl5P5sg&list=PLw2EsyqMVW_VBj8OzzkhXsA05-FsWYtbO&index=2"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Eu antes era box XBOX!",
+      "url": "https://www.youtube.com/watch?v=QTrtFAFsXXQ"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Eu antes era machão",
+      "url": "https://www.youtube.com/watch?v=idZUGg9wDIw"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Esse Brasil nn é pra mim!",
+      "url": "https://www.youtube.com/watch?v=9gynQNOxRZc&t"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Brasil, um buraco sem saída!",
+      "url": "https://www.youtube.com/watch?v=LMLj9YdrU-8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Oque eu faço nesse Brasil!",
+      "url": "https://www.youtube.com/watch?v=-HqHYAJ3eVE"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Se eu pudesse ir embora desse pais eu iria!!",
+      "url": "https://www.youtube.com/watch?v=yRYY5LzY5nI"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Brasil escroto!!",
+      "url": "https://www.youtube.com/watch?v=BA3ppDO2Vr8"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Brasileiro é um povo que bate!",
+      "url": "https://www.youtube.com/watch?v=zXbO4n7I6XA&t="
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Era uma vez um Gamer",
+      "url": "https://www.youtube.com/watch?v=C1eMG03wa2Q"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Era uma vez um Gamer 2",
+      "url": "https://www.youtube.com/watch?v=2HmGTWhlMP0"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Era uma vez um Gamer 3",
+      "url": "https://www.youtube.com/watch?v=FnSHjCnw-TQ&t"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Tempos modernos",
+      "url": "https://www.youtube.com/watch?v=ToydddcHyOE"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Ricazio em ação!",
+      "url": "https://www.youtube.com/watch?v=fW-VYpSMBg0"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Pinchier da Xbox One",
+      "url": "https://www.youtube.com/watch?v=pgBjPQ4yEpw"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "text": "Revoltado com essa vida de dinheiro",
+      "url": "https://www.youtube.com/watch?v=fjWiOf-_jt4"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Saudade das minhas gameplays!",
+      "url": "https://www.youtube.com/watch?v=jpygegg5i5k"
+    },
+    {
+      "id": 34,
+      "categoriaId": 6,
+      "titulo": "Vou dar um tempo!",
+      "url": "https://www.youtube.com/watch?v=lY8cbS3JyrY"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "Como raspo meu cabelo",
+      "url": "https://www.youtube.com/watch?v=QZ0KgCm8SmM"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "Saudade da época 16 bits",
+      "url": "https://www.youtube.com/watch?v=jH5lZumDZhA"
+    },
+    {
+      "id": 37,
+      "categoriaId": 6,
+      "titulo": "Mulher é atraso de vida!",
+      "url": "https://www.youtube.com/watch?v=GI8PND7XUsk"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ function Home() {
         .catch((err) => {
           console.log(err.message);
         });
-      }, 3.5 * 1000);}, [])
+      }, 2 * 1000);}, [])
   
 
   return (
