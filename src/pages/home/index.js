@@ -4,6 +4,9 @@ import Carousel from '../../components/Carousel';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer'; 
 import categoriasRepository from '../../repositories/categorias';
+import '../../pages/cadastro/categoria/categoria.css';
+import face from '../../assets/img/willsmith.png';
+
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -24,7 +27,11 @@ function Home() {
     <div style={{ background: '#141414' }}>
       <Menu />
 
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && (
+        <div className="foto">
+        <img className="image" src={face} alt="willsmith" />
+        </div>
+      )}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import './categoria.css';
-import face from '../../../assets/img/willsmith.png';
 import useForm from '../../../hooks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -95,13 +94,6 @@ function CadastroCategoria() {
           Cadastrar
         </button>
       </form>
-
-      {categorias.length === 0 && (
-        <div className="foto">
-          <img className="image" src={face} alt="willsmith" />
-        </div>
-
-      )}
 
       <ul className="category">
         {categorias.map((categoria) => (
