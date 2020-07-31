@@ -25,6 +25,9 @@
     padding-top: 30vh;
     padding-left: 44vw;
 }
+@media (max-width: 800px){
+    .foto{padding-left: 28vw;}
+}
 .image {
     position: absolute;
     width: 344px;
