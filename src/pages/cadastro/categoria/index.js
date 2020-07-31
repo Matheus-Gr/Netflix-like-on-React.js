@@ -8,68 +8,72 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import './categoria.css';
 import face from '../../../assets/img/willsmith.png';
+import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
-  const StartValues = {
+  const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#000',
+    cor: '',
   };
-  const [values, setValues] = useState(StartValues);
+  useEffect(() => {
+    categoriasRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
+      });
+  }, []);
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(infos) {
-    setValue(
-      infos.target.getAttribute('name'),
-      infos.target.value,
-    );
-  }
-
   useEffect(() => {
-    setTimeout(() => {
-      if (window.location.href.includes('localhost')) {
-        const URL = 'http://localhost:8080/categorias';
-        fetch(URL)
-          .then(async (respostaDoServer) => {
-            if (respostaDoServer.ok) {
-              const resposta = await respostaDoServer.json();
-              setCategorias(resposta);
-              return;
-            }
-            throw new Error('Não foi possível pegar os dados');
-          });
-      }
-    }, 4.3 * 1000);
+
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://testsflix.herokuapp.com/categorias';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+
+    
   }, []);
 
   return (
     <PageDefault>
       <h1>
-        CADASTRO DE CATEGORIA:
+        Cadastro de Categoria:
         {values.nome}
       </h1>
+
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
         setCategorias([
-          ...categorias, values,
+          ...categorias,
+          values,
         ]);
-
-        setValues(StartValues);
+        categoriasRepository.create({
+          titulo: values.titulo,
+          cor: values.cor,
+          link_extra: {
+            text: values.descricao
+          },
+        });
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
         <FormField
@@ -89,25 +93,28 @@ function CadastroCategoria() {
 
         <button className="Button">
           Cadastrar
-        </button>  
+        </button>
       </form>
-      
+
       {categorias.length === 0 && (
-      <div className="foto">
-        <img className="image" src={face} alt="willsmith" />
-      </div>
+        <div className="foto">
+          <img className="image" src={face} alt="willsmith" />
+        </div>
 
       )}
 
-      <ul>
+      <ul className="category">
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
+
       <Link to="/">
-        Ir para Home
+        <button className="Button">
+          Ir para home
+      </button>
       </Link>
     </PageDefault>
   );
